@@ -1,0 +1,584 @@
+! Title: Private Filters BASS Groups
+! Description: Filters to Block Ads
+! Expires: 4 days
+! Last modified: Tuesday , 16 Mar 2024 23:02
+! Homepage: https://free4u.nurul-huda.or.id/
+
+! Whitelisted , Don't forget to whitelist my blogs, add my blogs to your trusted sites
+@@||web1s.com^
+@@||adnews.me^$1p
+@@||adbrite.asia^$1p
+@@||play.google.com^$1p
+@@||twitter.com/i/api/*$1p
+@@||youtube.com/api/stats/qoe$1p
+@@||youtube.com/youtubei/v1/log_event$1p
+@@||challenges.cloudflare.com^
+@@/fuckadb.js$script,domain=megafly.in|megaurl.in|mtraffics.com
+@@||ads.apnashortener.in^$1p
+@@||vlitag.com^$domain=homeairquality.org|leaveadvice.com|monimag.com|claimcash.cc
+@@*$ghide,domain=softwaresolutionshere.com|tii.la|tophostingapp.com
+@@||ltcminer.com/vendor/js/evercookie.js$script,1p
+@@||imasdk.googleapis.com^$domain=autofaucet.dutchycorp.space
+@@/sailthru.js$script,domain=shopforex.online|otechno.net
+@@||inklinkor.com/tag.min.js$xhr,domain=oko.sh|kiiw.icu
+@@||cdn.getitall.top/.popunder.js$script,domain=pentafaucet.com|hitbits.io|simplebits.io|satoshilabs.net
+@@||gplinks.in/track/$script,xhr,domain=netflixrelease.com|mangareleasedate.com
+@@/gtm.js$script,domain=coinsl.click|busthings.site|exactpay.online|zegtrends.com|btc25.org|freetrx.fun
+@@/prebid.js$script,domain=shrink.icu
+@@||cdn.bmcdn6.com^$script,domain=mdn.lol
+@@||pagead2.googlesyndication.com^$script,domain=mdn.lol
+@@||shrinkearn.com/modern_theme/img/*$image,domain=tii.la
+bitzite.com#@#.banner-ad
+coinhub.wiki#@#div[id^="ezoic-pub-ad-"]
+fc-lc.xyz#@#+js(aeld, , /_blank/i)
+bithub.win#@#ins
+entutes.com#@#.ad-box
+offers4all.net#@#.ad-block
+offers4all.net#@#.ad-title
+offers4all.net#@#.ad-footer
+networkhint.com#@#.base-timer
+bitzite.com#@#center, .modal-overlay
+@@||networkhint.com^$csp=style-src *
+@@||ads.lootcash.vip^$1p
+@@||gamemonetize.com^$domain=dutchycorp.space
+@@||gamemonetize.co^$domain=dutchycorp.space
+@@||tii.la/cloud_theme/ads/load.js$1p
+@@||shopeemobile.com^$xhr,domain=shopee.co.id
+@@||ads2.banaraswap.in^$domain=techcyan.com
+@@||stats.wp.com^$domain=techcyan.com
+techcyan.com#@#.disadb
+techcyan.com#@#+js(aeld, DOMContentLoaded, eval)
+bigbtc.win#@#div[style] > div[id] > script[src^="//ads.themoneytizer.com"]:upward(3)
+
+! Must Blocked
+*$script,redirect-rule=noopjs,domain=awgrow.com|fadedfeet.com|kenzo-flowertag.com|homeculina.com|ineedskin.com|mdn.lol|worldtanr.xyz|lawyex.co
+/uko.php$domain=earnhub.net
+||fhlceugidb.xyz^$important
+||dnacdn.net^$important
+||dawirax.com^$important
+||dood.yt^$important
+||dawamya.ru^$important
+||gibevay.ru^$important
+||ad-loupe.com^$important
+||chillx.top^$important
+||eitoihywpqu.xyz^$important
+||diclotrans.com^$important
+||mjtwoqupix.com^$important
+||ujhhfgbbhs.com^$important
+||gnzfwmnfiy.com^$important
+||lkyrxsfsust.com^$important
+||hitbits.io/slk/st/*$important
+||getitall.top/slk/st/*$important
+||pentafaucet.com/slk/st/*$important
+||offers4all.net/banner_api/*$important
+||cryptocoinsad.com/ads/*$important
+||game.blog24.me^$subdocument,1p
+||gather.network^$important
+||catyrquabgcej.com^$important
+||s1.lcnf.pro^$important
+||mgr.consensu.org^$important
+||fmgvswcvdssrbc.com^$important
+||quantcast.com^$important
+||goevyqdlo.xyz^$important
+||wakesam.com^$important
+||wxvsrfurcdm.xyz^$important
+||gdbjurnxxhnro.com^$important
+||beycoin.xyz/allads.php$important
+||domain.com/ads.html$domain=blog24.me,important
+||cdn.jsdelivr.net/particles.js/*$script,important
+||1dogecoin.work/cointraffic.io.php$important
+||beycoin.xyz/bits-ads.php$important
+||r-q-e.com^$important
+||alcnpuezdiov.com^$important
+||flyfeel.info^$important
+||kmhlzanunr.com^$important
+||whoustoa.net^$important
+||xnkhvytcdgugasa.com^$important
+||adainstaller.com^$important
+||bigzone.xyz^$important
+||player.kick.com^$important
+||twitch.tv^$domain=medipost.org,important
+||homeairquality.org/wp-content/*.jpg$image
+||jixie.media^$domain=kompas.com,important
+||rqctubqtcbgeug.com^$important
+||aiimgvlog.fun/slidercp*t.html$subdocument
+||terabox.fun/wfm/*$important
+||chpadblock.com/wp-content/uploads*g$image
+||sofire.undefined^$domain=terabox.fun,important
+||linearicons.com^$domain=exeo.app
+||adqva.com^$important
+||qqtwdgwspie.com^$important
+||uphatter.com^$important
+||vhb.io^$important
+||netjtgcbe.xyz^$important
+||blog24.me/ad*$important
+||pop.beycoin.xyz^$important
+||multiwall-ads.shop^$important
+||burningpushing.info^$important
+||snoopy-incident.com^$important
+||ad2bitcoin.com/ad.php$important
+||publisharing.com^$xhr,important
+||yheosbyvoqnqxs.com^$important
+||ediuwfbqrterd.xyz^$important
+||bittrafficads.com^$important
+||owfvldpdcndmdr.com^$important
+||psoanufi.com^$important
+||lygbbkgykzcr.com^$important
+||czxmmcswwa.com^$important
+||timpsco.in/banner*$important
+||up-ads.com/bitmedia*$important
+||get-bitco.in/show/*$important
+||mdn.lol/revbid/*$important
+||0ox4qahfsg.com^$important
+||fnasmpygwa.com^$important
+||fastly.jsdelivr.net/npm/disable-devtool/*$important
+||exactpay.online/ezossp/*$script,important
+||exactpay.online/beardeddragon/*$script,important
+||mynewsmedia.co/wp-content/uploads/2023/01/AdBlock-Detected.png$image,domain=blog24.me,important
+
+! Some Parts are Blocked
+
+techsamir.com,zegtrends.com,bookszone.in,cortaly.com,automat.systems,cryptonworld.space,faucetbravo.fun,revly.click,oko.sh,bitzite.com,atefaucet.com,coinsvalue.net,freetrx.fun,adsy.pw,playstore.pw,freecc.click,nerdiess.com,cryptoearnfaucet.com,cryptosh.pro,bitcosite.com##^script:has-text(/TestAd|fakeAd|AdBlock|_0x|x5b9|download|onerror|adsBlocked|adsurfebe|alert|lipfoJyjxTvn/)
+readbitcoin.org,crypto4yu.com,freebitcoin.win,gainl.ink,wiour.com,btcbitco.in,adwerty.com,bitcoinfaucet.fun##^script:has-text(/ad blocker|popunder|blockAdBlock/)
+mcafee-com.com,carsmania.net,carstopia.net,makeupguide.net##^script:has-text(/onerror|0xc|alert|getmml|demandSupply/)
+cryptotracker.space,exalink.fun,g4z.one,zagl.in,payskip.org,coinsl.click,earnify.pro,shtfly.site,greymatterslinks.in,shotzon.com,sh24.me,beycoin.xyz,oscut.space,short.express,apksvip.com,healthmart.link,askpaccosi.com,adshorti.xyz,freeltc.top,bitads.pro,solarchaine.com,adrate.com,insfly.pw,lessurl.com,anchurl.com,tgshortener.com,cutl.li,afly.in,fixno.in,aclinks.in,getlink.cc,4cash.me,adbrite.asia,savelink.site,ajlinks.info,opli.xyz,litecoinly.online,shorturl.biz,adflyfly.com,shorteurl.com,pdiskshortener.com,cashlinko.com,tnlinks.in,ishortify.com,miuiflash.com,indianshortner.com,hypershort.com,arahlink.com,veganab.co,easysky.in,reeshort.cf,lewati.id,hipsonyc.com,adurly.cc,adrinolinks.in,cutpaidad.com,pnfreegames.com,yofaurls.com,netpopads.com,inkik.in,jslink.in,shrinkcash.com,1xlink.site,moinsider.xyz,panyshort.link,panyflay.me,panylink.com,tplinks.in,sht.sh,ludofantsypk.online,shortyearn.com,link3s.net,shtfly.com,adlink.click,clickzu.icu,adrev.link,sollink.pw,vshort.link,techsamir.com,cryptotyphoon.com,ccsl.xyz,clickscoin.com,crazyblog.in,adsquite.com,softindex.website,blogyindia.com,paylinks.cloud,bicolink.net,tinybc.com,bzlink.cu.ma,techyinfo.in,flyearn.site,tinygo.co,crazyblog.in,snowurl.com,rainurl.com,dutchycorp.ovh,flyad.vip,urlcashh.quest,flyzu.icu,dash-free.com,birdurls.com,revly.click,illink.net,owllink.net,linksly.co,ccurl.net,urlcashh.click,bitcosite.com,cryptosh.pro,url.namaidani.*,oii.io,dutchycorp.space,myartical.xyz,go.xcut.link,fire-link.net,shrinke.me,8raa.com,viewfr.com,urlw.net,tinycmd.com,paylinnk.com,syflink.com,earn4clicks.in,pdiskpage.tech,terafly.me,tlin.me,earnwithshortlink.com,startoshi.com,linkvor.pw,kyshort.xyz,sigmalinks.in,urlhives.com,cryptonworld.space,clikern.com,aljoodm98.com,rb7.me,ez4short.com,paid4link.com,get4llink.com,shortnow.xyz,thanks.wez.info,urlcash.click,adnews.me,adfly.site,linkmonetizers.com,mtraffics.com,shrinkme.link,usdshort.com,shortenurls.net###cookie-pop
+fc-lc.xyz,fc-lc.com,yeifly.com,10short.com,cryptotracker.space,short.shortlinks.info,shrink.icu,go.xcut.link,thanks.wez.info,urlcash.click,7r6.com,blog.shrinkme.link,adfly.site,links.apksvip.com,g4z.one,shtfly.site,clik.pw,coinsl.click,shortnow.xyz,payskip.org,short.freeltc.top,hatelink.me,askpaccosi.com,healthmart.link,1xlink.site,cute2w.incutearn.net,4cash.me,adbrite.asia,reeshort.cf,lewati.id,gtlink.co,yofaurls.com,netpopads.com,inkik.in,moinsider.xyz,shorterall.com,myartical.xyz,promo-visits.site,traffic1s.com,sollink.pw,adsy.pw,megafly.in,techsamir.com,linksly.co,claimbits.site,vshort.link,cryptotyphoon.com,megaurl.in,softindex.website,linkmatic.fun,mtraffics.com,paylinks.cloud,bzlink.cu.ma,urlcashh.quest,mitly.us,illink.net,ccurl.net,enit.in,urlcashh.click,cryptosh.pro,cashurl.in,cuturl.in,oii.io,url.namaidani.*,financerites.in,earnwithshortlink.com,startoshi.com,kyshort.xyz,aljoodm98.com,cryptonworld.space,terafly.me,up4cash.com,paylinnk.com,8raa.com,viewfr.com,tinygo.co,tinybc.com,urlw.net,tinycmd.com,foxylinks.site,clk.wiki,aku2x.xyz,pwrpa.cc##.text-left
+yeifly.com,go.shorturllinks.com,go.xcut.link,shrink.icu,rapidshort.lat,go.tplinks.in,link.get4llink.com,cryptonworld.space,ludofantsypk.online,v2links.in,blog.gadgetsreview27.com,tvseriesnmoviesdl.com,litecoinly.online,indianshortner.com,lewati.id,pnfreegames.com,1xlink.site,moinsider.xyz,v2guides.net,bzlink.cu.ma,paylinks.cloud,sigmalinks.in,flyad.vip,apnashortener.in,url.namaidani.*,shrinke.me,freeltc.top,freecrypto.top,shrinke.us,aku2x.xyz,link.youshort.net,short.earnmoj.in,bestlink.pr,link.paid4link.com,go.snaply.in,ads.lootcash.vip,get.fileku.net,shrinkme.info,dz-linkk.com,eazyurl.xyz##.blog-item
+paylinks.cloud,tinygo.co,cryptosh.pro,oii.io,url.namaidani.*,shrinke.me##footer
+earnify.pro,greymatterslinks.in,get4llink.com,firefaucet.win,tgshortener.com,reshortfly.com,fixno.in,aclinks.in,pdiskshortener.com,cashlinko.com,indianshortner.com,cloudshrinker.com,panylink.com,shtfly.com,link3s.net,fire-link.net,clickzu.icu,clickscoin.com,ccsl.xyz,adsquite.com,techyinfo.in,bitcosite.com,flyzu.icu,gainl.ink,shrinkme.link,linkmonetizers.com,adbitfly.click###particles-js
+pennbookcenter.com,covemarkets.com,hereofamily.com,hookeaudio.com,fidlarmusic.com,nghiencar.com,lucidcam.com,hocbeauty.com,publicananker.com,hocreview.com###main
+blog.carsmania.net,blog.carstopia.net,blog.makeupguide.net,viewfr.com,urlw.net,tinycmd.com,thanks.tinybc.com,blog.zubatecno.com,zombiebtc.com,btcpany.com,linkpress.fun,financeandinsurance.xyz,linx.cc,leaveadvice.com,blogyindia.com,wapka.id,bluetechno.net,healthy4pepole.com,mobi2c.com,forexit.online,medipost.org,tinygo.co,nguyenvanbao.com,theconomy.me,techacode.com,jiotech.net,trangchu.news,exeo.app,techgeek.digital,azmath.info,sinonimos.de,webhostingpost.com,thanks.wez.info##p
+feyorra.top,btcbunch.com##+js(acis, addEventListener, document.getElementById)
+mensventure.com,monimag.com,esopress.com,leaveadvice.com,homeairquality.org,mangareleasedate.com,netflixrelease.com##+js(no-fetch-if, googlesyndication)
+rssoftwareinfo.com,rsinsuranceinfo.com,rsadnetworkinfo.com,rseducationinfo.com,rsfinanceinfo.com,horoscop.info,trendzilla.it,coingraph.us##+js(no-xhr-if, googlesyndication)
+satoshilabs.net,getitall.top,hitbits.io,pentafaucet.com##+js(no-xhr-if, /ads)
+satoshilabs.net,getitall.top,hitbits.io,pentafaucet.com##+js(no-fetch-if, /ads)
+satoshilabs.net,getitall.top,hitbits.io,pentafaucet.com##.placeholder
+financerites.in,oii.io,namaidani.net,exeo.app###iframe
+djxmaza.in##iframe
+mangareleasedate.com,netflixrelease.com##+js(aopw, AdBDetected)
+shopforex.online##^script:has-text(/fetch|AdBlock|demandSupply/)
+wiki-topia.com,insurancegold.in##^script:has-text(/adBlock|bait/)
+freetrx.fun,btc25.org,zegtrends.com,exactpay.online,busthings.site,coinsl.click##+js(aeld, load, htmls)
+videoclip.info,freetrx.fun,btc25.org,zegtrends.com,exactpay.online,busthings.site,coinsl.click##+js(no-fetch-if, /surfe|adoto|\/ads\/js/)
+videoclip.info,freetrx.fun,btc25.org,zegtrends.com,exactpay.online,busthings.site,coinsl.click##+js(set, document.hasFocus, trueFunc)
+videoclip.info##+js(rmnt, script, htmls)
+coincodex.com##.slide-down.onesignal-reset.onesignal-slidedown-container
+clicksfly.online,kyshort.xyz,8raa.com,healthmart.link,paylinks.cloud,askpaccosi.com,short.freeltc.top,cute2w.in,opli.xyz,go.bicolink.net,short.claimbits.site,theconomy.me,url.namaidani.*,cuturl.in,shortlinks.info,aku2x.xyz,hatelink.me,promo-visits.site,shorterall.com,get4llink.com,pglink.in##.banner-captcha.banner
+nerdiess.com##+js(set, checkerr, true)
+ouo.io,techgeek.digital##.about
+shrinkme.info,shrinke.us##.clickbtnt.expop
+khoruou-gourmet.com##.content-area
+geniussolutions.co,cricketgurupro.com##+js(rmnt, script, deblocker)
+videoslyrics.com,enit.in,financerites.in,clk.wiki###orquidea-slideup
+uprwssp.org,mdn.lol,link1s.net##+js(noeval-if, /chp_?ad/)
+1bit.space##.modal__overlay
+manylink.vip##.guild-video-container
+1dogecoin.work###ps1
+acortalink.me##+js(nofab)
+digitalmarktrend.com###ad
+digitalmarktrend.com###ad2
+exactpay.online###ccnsad-pop
+exactpay.online###cryptocoinsad
+trendzilla.it##.pimp-my-site-sticker-board
+fansonlinehub.com##.ad-content
+go.linksly.co##div.expop
+coincodex.com###CCx7StickyBottom
+faucetcube.top###terms > .container
+clickmais.online###l808
+encurtador.postazap.com##.image-container
+encurtador.postazap.com###video-home
+simplebits.io##.rounded.shadow
+newworldnew.com,tackaway.com###lm-slideup
+newworldnew.com,tackaway.com###headlineatas
+clicklink.fun###modal-overlay
+techbeast.space##.mdpDeblocker-wrapper
+techbeast.space##.active.mdpDeblocker-blackout
+pwrpa.cc##.r89-Rectangle-Mid-300x600
+bagas31.info##.socialproff-bottom
+bagas31.info##.popup-rl-custom3
+fc-lc.xyz,oii.io,tophostingapp.com###iframe_id
+go.hipsonyc.com##.banner-468x60.banner
+cute2w.in,illink.net,enit.in,shrinke.me,get.megafly.in##body > iframe
+exashorts.fun,clicksfly.online,link1s.net,go.skiplink.me,1link.vip,paylinks.cloud,adrev.link,linkvor.pw,askpaccosi.com,healthmart.link,adurly.cc,hipsonyc.com,enit.in,tii.la,oko.sh,go.urlblink.com,link.pglink.in##.banner-336x280.banner
+financeandinsurance.xyz##[href="https://bit.ly/40hLMhk"]
+sunflowersteiner.edu.vn##.section-welcome-1.section-welcome.section
+sunflowersteiner.edu.vn##.section-category.section
+sunflowersteiner.edu.vn##.section-video.section
+sunflowersteiner.edu.vn##.section-welcome-reverse.section-welcome.section
+sunflowersteiner.edu.vn##.section-slide-card.section
+sunflowersteiner.edu.vn##.section-register.section
+coinfola.com,freebinance.top,clicksfly.online,freelitecoin.top,cryptoflare.net,11bit.co.in,claimcash.cc,freesolana.top,wikiversity.online,btcbunch.com###wcfloatDiv4
+clk.wiki,adflyfly.com,flyad.vip,financerites.in,bzlink.cu.ma,enit.in,url.namaidani.*###frame
+enit.in##frame
+kiiw.icu###kd38
+autofaucet.top##.ads
+faucetfly.in##.fixed-rightSd
+faucetfly.in##.fixed-leftSd
+clicklink.fun,atefaucet.com##div.ads
+silcot.com.vn###content
+techgeek.digital##.dot
+cryptosh.pro##div.col-lg-4
+go.freetrx.fun###ea31
+ahguial.x10.mx###random_728_top
+ahguial.x10.mx###random_728_bottom
+cryptofy.club,ahguial.x10.mx###about
+ahguial.x10.mx###random_300_left
+suara.com##.placeholder_belt
+suara.com##div.placeholder_read_body
+suara.com##.bg-ads-sticky-top
+suara.com##.bg-ads-sticky-side
+asideway.com##.dark-page-wrapper.dark
+cutty.app##.register-banner
+homeairquality.org##.thecontent
+homeairquality.org##.related-posts
+homeairquality.org###site-header
+exactpay.online,homeairquality.org###ez-sidebar-wall-left
+exactpay.online,homeairquality.org###ez-sidebar-wall-right
+homeairquality.org##.c-4-12.sidebar
+homeairquality.org##.copyrights
+freevpshere.com##.footer-bottom
+adbitfly.com,exeo.app##.info
+coincroco.com##.main-wrap
+coincroco.com##center > .mb-3
+mdn.lol##form[id]:style(display: block !important;)
+mdn.lol##+js(no-fetch-if, bmcdn6)
+mdn.lol##.hidden.title-item
+surflink.tech,adsy.pw##.herald-slide.herald-site-content
+tii.la##.td-container-wrap.td-main-content-wrap
+tii.la##.td-container-wrap.td-sub-footer-container
+autodime.com##.container.herald-section
+tplinks.in,atglinks.com##.bg_cover.footer-area
+cryptonetos.ru##+js(acis, onload, no-adb)
+kiddyshort.com,exactpay.online,revly.click,coinfola.com,cryptofy.vip##^script:has-text(/adsBlocked|lipfoJyjxTvn/)
+autofaucet.dutchycorp.space##.s12.col.hide-on-small-only
+autofaucet.dutchycorp.space##.xs12.s12.m6.l6.col > .hide-on-small-only
+autofaucet.dutchycorp.space##.sticky-ad-728x90.hide-on-small-only
+autofaucet.org##div.text-center.d-lg-block.d-none.banner
+autofaucet.org##.sticky-bottom
+coinhub.wiki##.row.container_coinhub_outer
+minersim.com###HBai_3_Anchor_Top
+admediaflex.com,cdrab.com,aduzz.com,datacheap.io###HBai_4_Ancor_Left
+admediaflex.com,cdrab.com,aduzz.com,datacheap.io###HBai_5_Anchor_Right
+admediaflex.com,cdrab.com,aduzz.com,datacheap.io###HBai_2_Anchor_Bottom
+heenglish.com##.article-inner
+www.mytop5.club##div.popSc
+softexia.com##div.a1g2022w
+softexia.com##.owl-carousel.a1g2022w
+freebitco.in###bottom_user_ads_container
+freebitco.in###wait > .cross_promo_msg_div
+freebitco.in##.daily_jackpot_main_container_div
+oscut.space##.clearfix.mh-wrapper
+tinybc.com,tinycmd.com,techacode.com##table
+freetrx.fun##div#x5b9
+flyad.vip###fixedban
+coincodex.com###CCx6StickyBottom
+link.blogyindia.com###popup-container
+5tl.ink,linkawynet.xyz,bestcash2020.com##.cookie-pop.bg-color-primary
+dwnld.povathemes.com##.cookie-pop.bg-color-darkblue
+rocklinks.net##.cookie-pop.bg-color-darkblue
+suaurl.com##.show.fade.modal-backdrop
+suaurl.com##.show.bd-example-modal-sm.fade.modal
+carisinyal.com###code_block-200-96206
+web1s.info##.mb-5 > iframe
+enit.in,tii.la,oko.sh##div[style="min-width: 336px; min-height: 280px;"]
+enit.in,tii.la,oko.sh##div[style="min-width: 300px; min-height: 50px;"]
+wez.info,viewfr.com,tinygo.co,tinybc.com,urlw.net,tinycmd.com##.waves
+youssefsayed.com,kooora365.online,tourismtravels4.sbs###popup
+bluetechno.net,healthy4pepole.com,mobi2c.com,forexit.online##h1
+zombiebtc.com,thanks.tinygo.co,homeairquality.org,thanks.wez.info,sinonimos.de##h2
+viewfr.com,thanks.wez.info,urlw.net,tinycmd.com,thanks.tinybc.com,zombiebtc.com,thanks.tinygo.co,coinscap.infohomeairquality.org,leaveadvice.com,bluetechno.net,healthy4pepole.com,mobi2c.com,forexit.online##h3
+linx.cc,bluetechno.net,healthy4pepole.com,mobi2c.com,forexit.online##h4
+go.bicolink.net##.iklans
+go.bicolink.net##.video-container
+guebieun.cc##.popbox
+djnonstopmusic.in##.HBaiModal
+otechno.net,shopforex.online##.the_content
+shopforex.online,gadgets.ishortify.com##div.demand-supply
+tnlinks.in##.wow.fadeInRight.header-image-alt
+link.youshort.net,opli.xyz##div.inst.box
+opli.xyz##.short
+blog.carsmania.net,blog.carstopia.net,blog.makeupguide.net##div.row
+blog.carsmania.net,blog.carstopia.net,blog.makeupguide.net##.py-4.footer
+blog.carsmania.net,blog.carstopia.net,makeupguide.net##.fa-xmark
+wez.info,viewfr.com,tinybc.com,urlw.net,tinycmd.com,thanks.tinygo.co###link-view > .container
+url.namaidani.*###link-view > div > center
+autofaucet.org##div.text-center.d-lg-block.d-none.banner
+coinhub.wiki##.ezmobtrans.ezmob-footer-desktop.ezo_ad.ezoic-floating-bottom.ezmob-footer
+coinhub.wiki##.cc_banner-wrapper
+exchange.fixno.in##[href="https://www.digistore24.com/redir/413700/AFFILIATE/CAMPAIGNKEY"]
+cute2w.in##div[style="opacity: 0.85; cursor: help;"]
+cute2w.in##div[style="opacity: 0.85; cursor: help; display: block;"]
+carsmania.net,carstopia.net,makeupguide.net##div[style="width:336px;height:280px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+cute2w.in##div[style="padding-bottom: 57px; padding-right: 28px; top: 244px; left: 382px; position: fixed; width: 489px; height: 318px;"]
+cute2w.in##div[style="padding-bottom: 57px; padding-right: 28px; top: 244px; left: 382px; position: fixed; width: 489px; height: 318px; display: block;"]
+exeo.app##div[style="min-width: 300px; min-height: 250px; text-align: center; margin-bottom: 5px"]
+fadedfeet.com,lawyex.co,ineedskin.com,homeculina.com,kenzo-flowertag.com##div.form-group
+aiimgvlog.fun,loaninsurehub.com,digitalmarktrend.com,tophostingapp.com,techgeek.digital,nontondrama.*,lk21official.*###overlay
+autodime.com##.herald-site-header
+btcpany.com##.layout--one.layout--default.site-header
+btcpany.com##.header-layout-banner-two.after-header
+btcpany.com##.r-no-child-mb.r-text-center
+zombiebtc.com##.clear.site-header
+blog.zubatecno.com##.wp-block-table
+blog.zubatecno.com##h4.wp-block-heading
+try2link.com,samaa-pro.com##.text-left.box-main2
+oii.io##[src="https://i.gyazo.com/b9ec64bbfa299ea5f8f4a3b11b773162.png"]
+blog.carsmania.net,blog.carstopia.net,makeupguide.net,zombiebtc.com,coinscap.info,greenenez.com,webfreetools.net,cookinguide.net,coinsvalue.net,freeoseocheck.com,wiki-topia.com,insurancegold.in,app.wapka.id##ul
+app.wapka.id##figure
+bitfaucet.pw,app.wapka.id##.separator
+blog.wiki-topia.com##li
+wapka.id,sinonimos.de##ol
+hocbeauty.com##.header-wrapper
+vn88goat.com##.ngocbeach-main
+theconomy.me##td > .text-center
+cutty.app##.steps-to-earn
+cutty.app##fieldset
+enit.in##li > ol
+djxmaza.in##.stickyads_Desktop_Only
+djxmaza.in###featuredimage
+djxmaza.in###\33 36x280_1
+djxmaza.in###\33 36x280_2
+djxmaza.in###\33 36x280_3
+djxmaza.in###\33 36x280_4
+djxmaza.in##.aboutDis
+suaurl.com###jbIJleB634Nl2
+suaurl.com###jbIJleB634Nl
+freebitcoin.io###bottomAdd
+faucettron.xyz###addbanners
+faucettron.xyz###mobilead
+cnnindonesia.com,detik.com##.mr1.mr
+cnnindonesia.com,detik.com##.mr2.mr
+detik.com###adv-caption-lead
+detik.com###leaderboard
+revly.click##.blog-content
+ccurl.net###id4fded5f4f5f35
+cryptosh.pro##div.col-lg-4v
+coinsrev.com##.entry-content > .entry-content
+entutes.com##+js(no-fetch-if, doubleclick)
+cryptosh.pro##div.container:nth-of-type(3)
+cryptotyphoon.com,bicolink.net###link-view > center
+anhdep24.com,bookszone.in##.site-content
+kumpul21.info###top-player-2
+kumpul21.info###top-player-1
+kumpul21.info##.custom-html-widget.textwidget > .row
+kumpul21.info##.col-sm-8.col-lg-9 > .row
+kumpul21.info###player-b
+1gom.shop##.widget-area
+bioskopkeren.*###headads
+bioskopkeren.*##video
+bioskopkeren.*###filmoncereklam
+layarkaca21.*,nontondrama.*,lk21official.*###top-b
+layarkaca21.*,nontondrama.*,lk21official.*###player-lux
+layarkaca21.*,nontondrama.*,lk21official.*###bplayer-single
+layarkaca21.*,nontondrama.*,lk21official.*###mid-b
+layarkaca21.*,nontondrama.*,lk21official.*###player-below-b
+layarkaca21.*,nontondrama.*,lk21official.*###bsquare
+layarkaca21.*,nontondrama.*,lk21official.*###ahmad
+playeriframe.shop,layarkaca21.*,nontondrama.*,lk21official.*###admad
+cryptocoinfaucet.online##.disp
+cryptocoinfaucet.online##div#ad02
+cryptocoinfaucet.online###ad01
+coinsward.com##div.box-primary.box:nth-of-type(2)
+coinsward.com##div.ads-container
+nishankhatri.com.np##.adspop.adsone
+178.20.41.250##.code-block-1.code-block
+38.242.252.139,38.242.202.181,194.163.128.237###ouibounce-modal
+45.141.56.28###fixedfoot
+107.152.47.82###adf_tera
+45.148.122.80###close-floatadsq
+158.69.120.31###floating_banner_top
+beedrive.link##.popUpBannerBox
+91.208.206.233##.bannerplayer
+5.189.165.125##.idmuvi-footerbanner
+139.99.61.225##.idmuvi-bottombanner
+46.149.76.81##.idmuvi-banner-aftercontent
+37.49.229.132,juraganfilm.*,juragan.*##.white-popup-block
+45.148.122.80,146.19.213.50,144.91.64.15,37.49.229.132,45.141.56.28,juraganfilm.*##.idmuvi-topplayer
+194.163.181.209,167.86.113.184,89.117.58.221,juragan.*##.idmuvi-topbanner-archive
+46.149.76.81,78.142.18.196,94.131.99.80,94.131.9.16##.idmuvi-bannerplayer
+173.249.23.73,146.19.213.50,5.189.165.125,46.149.76.81,37.49.229.132,194.163.181.209,167.86.113.184,89.117.58.221,94.131.9.16,juraganfilm.*##.idmuvi-afterplayer
+176.97.64.67,144.91.64.15,5.189.177.115,38.242.252.139,185.249.227.67,173.249.23.73,89.117.55.108,178.18.242.20##.site-footer.text-center
+45.148.122.80,161.97.152.47,173.212.231.17,38.242.202.181,146.19.213.50,144.91.64.15,139.99.61.225,46.149.76.81,45.129.230.101,78.142.18.196,45.141.56.28,194.163.181.209,167.86.113.184,89.117.58.221,94.131.9.16,juraganfilm.*##.idmuvi-topbanner
+45.148.122.80,173.249.23.73,89.117.55.108,38.242.252.139,185.249.227.67176.97.64.67,144.91.64.15,5.189.177.115,5.189.165.125,194.163.181.209,167.86.113.184,89.117.58.221,91.208.206.233,139.99.23.209##.idmuvi-bannerplayer-wrap
+161.97.152.47,173.249.23.7338.242.252.139,185.249.227.67,176.97.64.67,144.91.64.15,5.189.177.115,5.189.165.125,144.91.76.123,46.149.76.81,194.163.181.209,167.86.113.184,89.117.58.221,91.208.206.233,161.97.86.165,94.131.99.80###floating_banner_top1
+45.148.122.80,173.249.23.73,89.117.55.108,185.249.227.67,178.18.242.20,176.97.64.67,144.91.64.15,5.189.177.115,62.171.182.78,144.91.76.123,5.189.165.125,78.142.18.196,46.149.76.81,194.163.181.209,167.86.113.184,89.117.58.221,94.131.9.16,94.131.99.80,91.208.206.233,161.97.86.165##.gmr-bannerpopup
+146.19.213.50,144.91.64.15,5.189.177.115,45.148.122.80,161.97.152.47,173.249.23.73,89.117.55.108,38.242.252.139,178.18.242.20,176.97.64.67,62.171.182.78,144.91.76.123,5.189.165.125,46.149.76.81,37.49.229.132,194.163.128.237,45.141.56.28,185.99.135.244,194.163.181.209,167.86.113.184,89.117.58.221,185.99.135.228,94.131.9.16,94.131.99.80,91.208.206.233,161.97.86.165,139.99.23.209,juraganfilm.*,juragan.*##.idmuvi-topbanner-aftermenu
+5.189.165.125,46.149.76.81,78.142.18.196,37.49.229.132,194.163.128.237,185.99.135.244,194.163.181.209,167.86.113.184,89.117.58.221,91.208.206.233,161.97.86.165,185.99.135.228,94.131.9.16,94.131.99.80,juraganfilm.*,juragan.*##.idmuvi-floatbanner
+freecc.click##.fluid_player_layout_default.fluid_video_wrapper
+sodovns.com##.clearfix.content-bg.random-yes.content-post
+nerdiess.com##.blog-posts
+blog24.me###s10c
+doge25.in,aiimgvlog.fun,blog24.me##+js(acs, onload, checkAJAXRequests)
+doge25.in,aiimgvlog.fun,blog24.me##+js(aeld, DOMContentLoaded, adBlockNotDetected)
+doge25.in,cookinguide.net,aiimgvlog.fun,blog24.me##+js(acs, document.getElementById, Swal.fire)
+doge25.in,aiimgvlog.fun,blog24.me##+js(acs, document.getElementById, ad.js)
+doge25.in,aiimgvlog.fun,blog24.me##+js(aeld, DOMContentLoaded, div.cacat)
+doge25.in,aiimgvlog.fun,blog24.me##+js(aost, onload, inlineScript)
+aiimgvlog.fun##+js(set, chp_ads_blocker_detector, false)
+aiimgvlog.fun##+js(acs, addEventListener, devtoolschange)
+cookinguide.net##+js(aeld, DOMContentLoaded, div.floating-banner)
+aiimgvlog.fun,blog24.me##div.ad-container
+
+doge25.in,aiimgvlog.fun,blog24.me##+js(set, abc, false)
+doge25.in,aiimgvlog.fun,blog24.me##+js(nostif, bait)
+aiimgvlog.fun,blog24.me###widescreen2
+deltapay.xyz,tokenmix.pro###promo3
+earncryptofaucet.shop##div.faucet_user_body_banner
+deltapay.xyz,tokenmix.pro,earncryptofaucet.shop##.BannerMain
+ewall.biz,dripoffers.com,offers4crypto.xyz,adwallgate.com##.floating-banner-right
+ewall.biz,dripoffers.com,offers4crypto.xyz,adwallgate.com##.floating-banner-left
+offers4crypto.xyz,dripoffers.com##div.text-center.mt-4
+offers4crypto.xyz##.text-center.mt-1
+autodime.com,surflink.tech##^script:has-text(/TestAd|fakeAd|AdBlock/)
+onlyfaucet.com,pernahsukses.com,fahmysport.com,govaf.com,whoopyrewards.com##^script:has-text(decodeURIComponent(escape(r)))
+break.id,financenube.com,halosenja.com,tecnotech.xyz,kreatifparenting.com,oko.sh,atglinks.com,insfly.pw,syflink.com,paylinnk.com,up4cash.com,netpopads.com,1xlink.site,traffic1s.com,techsamir.com,mitly.us##.banner-inner
+dainiknews.net,insurancepost.xyz,theconomy.me,blogsward.com,cryptosparatodos.com,yudiblog.me,calmgram.com,lifeinsurancesblog.xyz,coinsrev.com,admediaflex.com,aduzz.com,datacheap.io,cdrab.com,coinsward.com,adbitfly.com,bit4me.info,adbitfly.in,neverdims.com,wikiversity.online,allsoftdrivers.com,blog.qnix.me,themeson.com,appkamods.com,coinsrev.com,conghuongtu.net,digitaledgementor.com,tinybc.com##.adb
+offers4all.net###promo
+kyshort.xyz###mff4
+fun88bk.com##.banner-footer-wrap
+digitalmarktrend.com###ad1
+cdrab.com###odd1
+btcsatoshi.net##.sbt-wrap
+link.paid4link.com###link-view > .box > div
+megaurl.in,mtraffics.com,megafly.in##.overlayer
+url.namaidani.net##.row > div > center
+jmcrypto.eu.org,offers4all.net##center
+offers4all.net##.banner
+offers4all.net##div#featuredd
+lucidcam.com##.content-area
+sodovns.com###banner_home
+mawtoload.com###sticky-banner
+mawtoload.com###banner-post
+aghtas.com,slinkware.com,dripoffers.com,offeroc.com###banner
+sodovns.com##.sec_1
+sodovns.com##.sec_2
+id.arahlink.com,pnfreegames.com,sht.sh,sodovns.com##.faq
+coin2pay.xyz##body > b
+coin2pay.xyz##.adsModalCls
+hatecoin.me###multiside
+azmath.info##div:nth-of-type(12)
+omegalinks.in##div.snowfall-flakes
+aduzz.com##.a6
+aduzz.com##.a2
+aduzz.com##.a1
+aduzz.com##.a3
+aduzz.com,datacheap.io,cryptfaucet.com,bitcrypto.info,admediaflex.com,wpcheap.net##div.floating-banner
+aduzz.com,datacheap.io,cryptfaucet.com,bitcrypto.info,admediaflex.com,wpcheap.net,cdrab.com##div.text-center.adslr
+aduzz.com,cryptfaucet.com,bitcrypto.info,admediaflex.com,wpcheap.net,cdrab.com##table.a
+cdrab.com##table.a1
+cryptfaucet.com,bitcrypto.info,admediaflex.com,wpcheap.net,cdrab.com##table.a2
+cryptfaucet.com,bitcrypto.info,admediaflex.com,wpcheap.net##table.a3
+cryptfaucet.com,bitcrypto.info,admediaflex.com,wpcheap.net,cdrab.com##table.a6
+cdrab.com##.a3
+exego.app,exeurl.com,exeo.app##article
+bigbtc.win###ad728
+url.beycoin.xyz##.home-stats
+mgnet.xyz###landing-page-all-data
+1bit.space##.col_12.merri.article-full
+51.79.226.152,51.79.160.87###float-banner
+51.79.226.152###float-bottom-banner
+51.79.160.87###top-banner
+51.79.160.87###after-menu-1
+161.97.144.237###fb-fanbox
+161.97.144.237###hb1
+161.97.144.237###play1
+161.97.144.237##.ppp
+adrinolinks.in##[href="https://carrellsubdit.com/i3tcZiqzcFih6/52697"]
+arahlink.com##^script:has-text(/gArahlinkWebs|way1Pass|way2Pass/)
+adrinolinks.in##.navbar-brand
+aztravels.net##+js(set, count, 0)
+sinonimos.de##+js(set, waitTime, 0)
+arahlink.com##+js(set, way1Pass, true)
+arahlink.com##+js(set, way2Pass, true)
+id.arahlink.com,freevpshere.com,softwaresolutionshere.com##.content
+freevpshere.com,softwaresolutionshere.com###sidebar
+freevpshere.com,softwaresolutionshere.com##.theme-header
+mazen-ve3.com##.previous-next-links
+mazen-ve3.com##.related-articles
+oko.sh##.td-container-wrap.td-main-content-wrap
+oko.sh##.td-container-wrap.td-sub-footer-container
+moneylink.tk##div.texto
+moneylink.tk###l808
+moneylink.tk##.texto-link
+tii.la###div-gpt-ad-1682489379553-0
+exeo.app###div-gpt-ad-1676377836713-1
+exeo.app###div-gpt-ad-1676377836713-2
+exeo.app###div-gpt-ad-1676377836713-4
+bloginkz.com##[href="//zunsoach.com/4/5852181"]
+blog.medipost.org##[href="https://bit.ly/40hLMhk"]
+moneylink.tk##[href^="https://betfury.io/boxes/all"]
+moneylink.tk##a[href="https://goldenmining.ml/register/komero"]
+moneylink.tk##[href^="https://faucetpay.io/"]
+moneylink.tk##[href="//nossairt.net/4/5614247"]
+pennbookcenter.com##.row-divided.row-large.row
+downfile.site##.monetiza.banner_ads.banner-ads.textads.ad-unit.ad-space.ad-zone
+homeairquality.org##[src="https://www.youtube.com/embed/ca8xnhL8Evc"]
+leaveadvice.com,homeairquality.org,tophostingapp.com##.ezoic-ad
+homeairquality.org###div-gpt-ad-homeairquality_org-box-4-0_3
+homeairquality.org###div-gpt-ad-homeairquality_org-box-4-0_2
+homeairquality.org###div-gpt-ad-homeairquality_org-box-4-0_1
+homeairquality.org###div-gpt-ad-homeairquality_org-box-4-0
+web1s.info##ins[style="display:inline-block;width:300px;height:250px;"]
+rsadnetworkinfo.com,rsinsuranceinfo.com,rsfinanceinfo.com,rssoftwareinfo.com,rshostinginfo.com,rseducationinfo.com##form > div[id]:style(display: block !important;)
+rseducationinfo.com,rshostinginfo.com,rsadnetworkinfo.com,rsinsuranceinfo.com,rsfinanceinfo.com,rssoftwareinfo.com,vietnamtravelguide.top,iphoto.site##.a, .b, .c, .d, .e, .f, .g
+cnbcindonesia.com##.mr1.mr
+cnbcindonesia.com##.mr2.mr
+cnnindonesia.com##.subscribe__fixed
+kompas.com##.clearfix.kcm__horizontal.kcm
+kompas.com##.js-giant-wp-top1.clearfix.kcm__big.kcm
+kompas.com##.kcm__articleList
+kompas.com##.clearfix.kcm__top.kcm
+kompas.com##.clearfix.kcm__track.kcm
+kompas.com##.mgidaiml.ads-partner-wrap
+kompas.com##.native-wrap
+kompas.com##.clearfix.kcm__stick__wrap.row
+kompas.com##.kcm__tower--sticky.col-offset-0.col-bs9-2
+kompas.com##.osmplaceonsite.ads-partner-wrap
+kompas.com##div.gate-kgplus
+kompas.com##.clearfix.kcm__rectangle.kcm
+kompas.com##.inline.video-box-wrap
+kompas.com##.clearfix.info-banner
+kompas.com##.video-yt
+kompas.com###rekomendasi-konten-pilihan-untukmu-aiml
+kompas.com##.video-box-thumb
+kompas.com##.kcm__superbig.kcm
+kompas.com##.clearfix.kcm__big.kcm
+kompas.com##.clearfix.kcm__tower.kcm
+techcyan.com##.e-con.postcontainer.e-con-full.elementor-element-75f9a05f.elementor-element
+techcyan.com##.e-con.e-con-full.elementor-element-fd41acd.elementor-element
+techcyan.com##.e-con.e-con-full.elementor-element-36b7270f.elementor-element
+techcyan.com##.e-con.wg-category-box.e-con-full.elementor-element-6b219d3.elementor-element
+techcyan.com##.elementor-location-footer.elementor-178.elementor
+techcyan.com##.elementor-location-header.elementor-164.elementor
+techcyan.com##.elementor-widget-shortcode.elementor-widget.wg-breadcrumps.elementor-widget__width-inherit.elementor-element-019a57f.elementor-element
+kiktu.com##.e-con.e-con-full.elementor-element-2f88dc36.elementor-element
+kiktu.com##.e-con.postcontainer.e-con-full.elementor-element-146a3f44.elementor-element
+kiktu.com##.e-con.e-con-boxed.elementor-element-3522d491.elementor-element
+leaveadvice.com##.ez-gateway
+leaveadvice.com###floating_menu
+leaveadvice.com##.ezmobtrans.ezmob-footer-desktop.ezo_ad.ezoic-floating-bottom.ezmob-footer
+leaveadvice.com##.fwit
+leaveadvice.com##.clearfix.rltpi
+leaveadvice.com##.ez-video-center
+leaveadvice.com###thrive_container_form_add_comment
+leaveadvice.com##body > footer
+leaveadvice.com##.entry-title
+leaveadvice.com##.aut.awr
+leaveadvice.com###comments
+leaveadvice.com##.pgn.ctr.awr
+leaveadvice.com##article > footer
+leaveadvice.com##p > span
+homeairquality.org##.main-header-bar-wrap
+homeairquality.org##.secondary.widget-area
+homeairquality.org##.clear.entry-content > strong
+homeairquality.org##.site-footer
+homeairquality.org##.schema-faq-code
+homeairquality.org##.ez-toc-container-direction.ez-toc-grey.ez-toc-counter.counter-hierarchy.ez-toc-v2_0_47_1
+homeairquality.org##.saboxplugin-wrap
+homeairquality.org##.clear.entry-content > p
+homeairquality.org##.clear.entry-content > ul
+homeairquality.org##.post-navigation.navigation
+homeairquality.org##.wpautoterms-footer
+homeairquality.org##.ast-no-thumbnail.entry-header
+homeairquality.org##.ez-video-center
